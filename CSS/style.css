@@ -47,19 +47,19 @@ img {
   margin: 5px;
 }
 
-.navigation ul {
+nav ul {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.navigation li {
+nav li {
   font-weight: 100;
   letter-spacing: 2px;
   padding: 0;
 }
 
-.navigation li.logo {
+nav li.logo {
   color: black;
   font-size: 18px;
   font-weight: 700;
