@@ -82,7 +82,7 @@ nav li.logo {
 #banner .content h1 {
   font-size: 25px;
   border: 3px solid white;
-  color: whitesmoke;
+  color: white;
   position: relative;
   top: 20px;
   width: 610px;
@@ -98,7 +98,7 @@ nav li.logo {
   } */
 
 h3 {
-  color: #e56fbc;
+  color: #cc58a4;
   font-size: 26px;
   font-weight: 700;
   /* padding-left: 190px; */
