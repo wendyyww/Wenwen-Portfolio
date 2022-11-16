@@ -31,13 +31,17 @@ body {
   animation: 3s fadein;
 }
 
+.row p{
+  padding: 20px;
+}
+
 .linked-image {
   text-decoration: none;
 }
 
 img:hover,
 img:focus {
-  box-shadow: 10px 10px 5px #aabaf4;
+  box-shadow: 10px 10px 5px #8494cd;
 }
 
 img {
@@ -94,7 +98,7 @@ nav li.logo {
   } */
 
 h3 {
-  color: #f58fd1;
+  color: #e56fbc;
   font-size: 26px;
   font-weight: 700;
   /* padding-left: 190px; */
@@ -142,7 +146,7 @@ h4 {
   /* align-self: center;
   justify-self: center; */
   flex-wrap: wrap;
-  color: #8fa5f5;
+  color: #708ae8;
   /* position: relative; */
   font-size: 20px;
   font-weight: 700;
@@ -157,8 +161,8 @@ h4 {
 }
 
 .share a {
-  background: rgb(243, 195, 219);
-  border: 1px solid rgb(244, 184, 232);
+  background: rgb(236, 126, 181);
+  border: 1px solid rgb(236, 126, 181);
   border-radius: 3px;
   color: white;
   display: inline-block;
