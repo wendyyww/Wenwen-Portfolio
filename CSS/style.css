@@ -73,21 +73,25 @@ nav li.logo {
   letter-spacing: 4px;
 }
 
+nav li h1 {
+  font-size: 16px;
+}
+
 #banner {
   /* background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg"); */
   background-image: url("https://thumbs.dreamstime.com/b/abstract-mood-series-website-background-color-images-high-resolution-abstract-mood-backgrounds-images-designed-use-websites-157859506.jpg");
   background-size: cover;
   background-position: bottom center;
-  height: 55px;
+  height: 50px;
   width: 100%;
 }
 
-#banner .content h1 {
+#banner .content h2 {
   font-size: 18px;
   border: 3px solid white;
   color: rgb(36, 2, 57);
   position: relative;
-  top: 10px;
+  top: 13px;
   width: 80%;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
@@ -101,11 +105,17 @@ nav li.logo {
     width: 625px;
     margin: 0 auto;
   } */
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
 
 h3 {
   color: #cc58a4;
   font-size: 26px;
   font-weight: 700;
+  padding-bottom: 20px;
   /* padding-left: 190px; */
 }
 
@@ -130,11 +140,13 @@ h6 {
   padding-left: 90px;
 }
 
-h4 {
-  color: #76e7ab;
-  font-size: 26px;
-  font-weight: 700;
-  /* padding-left: 100px; */
+p {
+  padding-bottom: 20px;
+}
+
+span {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main {
@@ -154,6 +166,7 @@ h4 {
   /* position: relative; */
   font-size: 20px;
   font-weight: 700;
+  padding: 0;
 }
 
 .share {
@@ -220,7 +233,7 @@ h4 {
 }
 
 .caliber h3 {
-  padding: 0px;
+  padding-bottom: 15px;
   color: rgb(43, 43, 241);
 }
 
@@ -393,36 +406,45 @@ aside > p {
   /* background-color: #2196f3; */
 }
 
+.grid-container-1 img {
+  padding-top: 20px;
+}
+
+.grid-container-1 figcaption {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .grid-container-1 .item0 {
   width: auto;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 .grid-container-1 .item1 {
   width: auto;
   text-align: left;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-container-1 .item2 {
   width: auto;
   text-align: left;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-container-1 .item3 {
   width: auto;
   text-align: left;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 .grid-container-1 .item4 {
   width: auto;
   text-align: left;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* 3. grid */
@@ -438,6 +460,14 @@ aside > p {
     "footer";
 }
 
+.grid-container-3 img {
+  padding-top: 20px;
+}
+
+.grid-container-3 figcaption {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 .grid-container-3 .item1 > h4 {
   font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -529,11 +559,11 @@ aside > p {
 /* Dropdown Button */
 .dropbtn {
   background-color: white;
-  color: #1d74ee;
+  color: #1b5cb7;
   /* padding: 16px; */
   font-weight: 700;
   letter-spacing: 1.25px;
-  font-size: 15px;
+  font-size: 16px;
   border: none;
 }
 
@@ -575,6 +605,13 @@ aside > p {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: lightgrey;
+}
+
+ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  list-style: disc;
 }
 
 /* p {
