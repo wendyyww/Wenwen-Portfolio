@@ -1,125 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>
-        Gallery Page
-    </title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+    <link rel="icon" type="image/x-icon" href="Image/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>Gallery Page</title>
+  </head>
 
-<body id="container">
-    <header class="header">
-        <nav>
-            <ul>
-                <li style="display:inline-block;">
-                    <a href="index.html" style="text-decoration:none; color:#1d74ee;"><h1>Home</h1></a>
-                 </li>
-                 <li style="display:inline-block; padding-left: 30px;">
-                    <a href="gallery.html" style="text-decoration:none; color:#1d74ee;"><h1>Gallery</h1></a>
-                 </li>
-            </ul>
-          </nav> 
-    </header>
-
-    <aside style="grid-area: aside;height: 200px;padding:10px;font-size: 20px;">
-        <h1>Additional Aside Information</h1>
-    </aside>
+  <body id="container">
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <!-- <header class="header"> -->
+    <nav style="padding-top: 30px">
+      <ul>
+        <li style="display: inline-block">
+          <a href="index.html" style="text-decoration: none; color: #1d74ee"
+            ><h1>Home</h1></a
+          >
+        </li>
+        <li style="display: inline-block; padding-left: 30px">
+          <a
+            href="gallery.html"
+            style="text-decoration: underline; color: darkblue"
+            ><h1>Gallery</h1></a
+          >
+        </li>
+        <li style="display: inline-block; padding-left: 25px">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span style="font-family: Poppins, sans-serif">
+                Projects &#9662;
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="1.html">Health App</a>
+              <a href="2.html">Client consulting</a>
+              <a href="3.html">Sustainable Fashion App</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- </header> -->
+    <div id="wrapper">
+      <aside>
+        <!-- <aside style="grid-area: aside;height: 200px;padding:10px;font-size: 20px;"> -->
+        <!-- <ul>
+                <li>1
+                <li>2
+                <l1>3
+            </ul> -->
+        <div>
+          <p>For further information, please use this form to contact</p>
+        </div>
+      </aside>
+    </div>
 
     <main class="grid-container">
-        <div class="subheader" style="padding-left: 30px;">Gallery Page</div>
-        <div class="health">
-            <div class="column">
-                <div class="health-header">Project Health App</div>
-                <div class="row">
-                    <div class="item1">
-                        <figure>
-                            <a href="1.html">
-                                <img src="Image/interview-analysis.jpg" alt="Interview Analysis" width="500">
-                            </a>
-                            <figcaption>Problem statement and User research</figcaption>
-                        </figure>
-                    </div>
-                    <div class="item2">
-                        <figure>
-                            <a href="1.html">
-                                <img src="Image/health-persona-1.jpg" alt="persona 1" width="500">
-                            </a>
-                            <figcaption>Details of Persona 1.</figcaption>
-                        </figure>
-                    </div>
-                    <div class="item3">
-                        <figure>
-                            <a href="1.html">
-                                <img src="Image/health-persona-2.jpg" alt="persona 2" width="500">
-                            </a>
-                            <figcaption>Details of Persona 2.</figcaption>
-                        </figure>
-                    </div>
-                    <div class="item4">
-                        <figure>
-                            <a href="1.html">
-                                <img src="Image/health-storyboard.jpeg" alt="storyboard" width="500">
-                            </a>
-                            <figcaption>Storyboard of Persona 2 created by myself.</figcaption>
-                        </figure>
-                    </div>
-                </div>
+      <header>
+        <h1 style="padding-left: 20px; text-align: center">
+          Gallery of Project Images
+        </h1>
+        <ul style="text-align: center">
+          <li style="display: inline-block">
+            <a
+              href="#health"
+              style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+            >
+              Care Check
+            </a>
+          </li>
+          <li style="display: inline-block">
+            <a
+              href="#tf"
+              style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+            >
+              Turtle Fashion
+            </a>
+          </li>
+          <li style="display: inline-block">
+            <a
+              href="#cst"
+              style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+            >
+              Consulting
+            </a>
+          </li>
+        </ul>
+      </header>
+      <!-- <div class="subheader" style="padding-left: 30px">Gallery Page</div> -->
+      <div class="health">
+        <div class="column">
+          <div class="health-header" id="health">
+            Care Check: Health Product App
+          </div>
+          <div class="row">
+            <div class="item1">
+              <figure>
+                <a href="1.html">
+                  <img
+                    src="Image/interview-analysis.jpg"
+                    alt="Interview Analysis"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Problem statement and User research</figcaption>
+              </figure>
             </div>
-        </div>
-
-
-        <div class="innojam">
-            <div class="column">
-                <div class="innojam-header">Innovation Jam: Turtle Fashion</div>
-                <div class="row">
-                    <div class="item1">
-                        <figure>
-                            <a href="3.html">
-                                <img src="Image/Innovation-Jam.jpeg" alt="Inno jam" width="500">
-                            </a>
-                            <figcaption>Jam Mass Meeting</figcaption>
-                        </figure>
-                    </div>
-                    <div class="item2">
-                        <figure>
-                            <a href="3.html">
-                                <img src="Image/inno-persona-mom.jpg" alt="Inno jam mass meeting" width="500"></a>
-                            <figcaption>Persona for User1: Working Mom</figcaption>
-                        </figure>
-                    </div>
-                    <div class="item3">
-                        <figure>
-                            <a href="3.html">
-                                <img src="Image/inno-persona-inf.jpg" alt="influencer persona example" width="500"></a>
-                            <figcaption>Persona for User2: College Influencer</figcaption>
-                        </figure>
-                    </div>
-                </div>
+            <div class="item2">
+              <figure>
+                <a href="1.html">
+                  <img
+                    src="Image/health-persona-1.jpg"
+                    alt="persona 1"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Details of Persona 1</figcaption>
+              </figure>
             </div>
-        </div>
-
-
-        <div class="consulting">
-            <div class="column">
-                <div class="consulting-header">Client Consulting: NPower</div>
-                <div class="row">
-                    <div class="item1">
-                        <figure>
-                            <a href="2.html">
-                            <img src="Image/Competitor-Analysis.jpg" alt="competitor analysis" width="500">
-                            </a>
-                            <figcaption>Competitor Analysis (click for more)</figcaption>
-                        </figure>
-                    </div>
-                </div>
+            <div class="item3">
+              <figure>
+                <a href="1.html">
+                  <img
+                    src="Image/health-persona-2.jpg"
+                    alt="persona 2"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Details of Persona 2</figcaption>
+              </figure>
             </div>
+            <div class="item4">
+              <figure>
+                <a href="1.html">
+                  <img
+                    src="Image/health-storyboard.jpeg"
+                    alt="storyboard"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Storyboard of Persona 2</figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- <div class="design">
+      <div class="innojam">
+        <div class="column">
+          <div class="innojam-header" id="tf">
+            Innovation Jam: Turtle Fashion
+          </div>
+          <div class="row">
+            <div class="item1">
+              <figure>
+                <a href="3.html">
+                  <img
+                    src="Image/Innovation-Jam.jpeg"
+                    alt="Inno jam"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Jam Mass Meeting</figcaption>
+              </figure>
+            </div>
+            <div class="item2">
+              <figure>
+                <a href="3.html">
+                  <img
+                    src="Image/inno-persona-mom.jpg"
+                    alt="Inno jam mass meeting"
+                    width="500"
+                /></a>
+                <figcaption>Persona for User1: Working Mom</figcaption>
+              </figure>
+            </div>
+            <div class="item3">
+              <figure>
+                <a href="3.html">
+                  <img
+                    src="Image/inno-persona-inf.jpg"
+                    alt="influencer persona example"
+                    width="500"
+                /></a>
+                <figcaption>Persona for User2: College Influencer</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="consulting">
+        <div class="column">
+          <div class="consulting-header" id="cst">
+            Client Consulting: NPower
+          </div>
+          <div class="row">
+            <div class="item1">
+              <figure>
+                <a href="2.html">
+                  <img
+                    src="Image/Competitor-Analysis.jpg"
+                    alt="competitor analysis"
+                    width="500"
+                  />
+                </a>
+                <figcaption>Competitor Analysis (click for more)</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="design">
             <div class="column">
                 <div class="design-header">Some header for design</div>
                 <div class="row">
@@ -159,9 +257,6 @@
         </div> -->
     </main>
 
-    <footer style="grid-area: footer;text-align: center;">
-        &copy; 2022
-    </footer>
-</body>
-
+    <footer style="grid-area: footer; text-align: left">&copy; 2022</footer>
+  </body>
 </html>

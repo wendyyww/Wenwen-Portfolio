@@ -1,80 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Turtle Fashion
-        </title>
-            <link rel="stylesheet" type="text/css" href="CSS/style.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
-    <body class="container"> 
-        <nav class="navigation">
-            <ul>
-                <li style="display:inline-block;">
-                    <a href="index.html" style="text-decoration:none; color:#1d74ee;"><h1>Home</h1></a>
-                 </li>
-                 <li style="display:inline-block; padding-left: 30px;">
-                    <a href="gallery.html" style="text-decoration:none; color:#1d74ee;"><h1>Gallery</h1></a>
-                 </li>
-            </ul>
-          </nav> 
-        <main>
-            <h1>Project: Turtle Fashion</h1>
-            <h2>Sustainable Clothing Rental</h2>
-            <h3>"Fashion, but make it slow"</h3>
-            <h3>
-                Clothing nowadays has a negative impact on the environment. </h3>
-                <ul>
-                    <li>
-                      staying in trend with quality clothing is expensive - fast fashion often used as alternative 
-                     </li>
-                     <li>Clothing utilization on steady decrease
-                        - Reasons include cultural changes in style, decreased physical durability, and a trend to use items less often*
-                        staying in trend with quality clothing is expensive - fast fashion often used as alternative 
-                       </li>
-                       <li>
-                        Recycling solutions for clothing aren't good
-                        85% of clothing ends up in landfill**
-                        Fashion industry emits as much GHG as France, Germany & UK combined***
-                       </li>
-                </ul>     
-            <h2>Lifecycle of traditional clothing vs. Turtle Fashion</h2>
-            <div class="column">
-                <figure>
-                    <img src="Image/tf-diagram.jpg" alt="diagram" width="500"/>
-                    <figcaption>Why Turtle Fashion is sustainable fashion</figcaption>
-                </figure>
-                <h3>Turtle Fashion reinvents online shopping for a new generation by providing a subscription-based rental system</h3>
-                <ul>
-                    <li>
-                        Wide selection of trendy and rising sustainable brands
-                    </li>
-                    <li>Personalized styling recommendations</li>
-                    <li>Subscription Plans to save more</li>
-                    <li>Free Shipping and Returns</li>
-                </ul> 
-                <h3>Snaps of what our product looks like</h3>
-                <figure class="row">
-                    <img src="Image/tf-design1.png" alt="design 1" height="400"/>
-                    <img src="Image/tf-design2.png" alt="design 2" height="400"/>
-                    <figcaption>snaps of what our product looks like</figcaption>
-                </figure>
-                <h3>Participating in Innovation-Jam</h3>
-                <figure>
-                    <img src="Image/Innovation-Jam.jpeg" alt="mass meeting" width="500"/>
-                    <figcaption>Participating in Innovation Jam</figcaption>
-                </figure>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Turtle Fashion</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="Image/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="grid-container-3">
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <nav class="navigation">
+      <ul>
+        <li style="display: inline-block">
+          <a href="index.html" style="text-decoration: none; color: #1d74ee"
+            ><h1>Home</h1></a
+          >
+        </li>
+        <li style="display: inline-block; padding-left: 30px">
+          <a href="gallery.html" style="text-decoration: none; color: #1d74ee"
+            ><h1>Gallery</h1></a
+          >
+        </li>
+        <li style="display: inline-block; padding-left: 25px">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span
+                style="
+                  font-family: Poppins, sans-serif;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                Projects &#9662;
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="1.html">Health App</a>
+              <a href="2.html">Client consulting</a>
+              <a
+                href="3.html"
+                style="
+                  color: darkblue;
+                  text-decoration: underline;
+                  background-color: rgb(220, 222, 222);
+                "
+              >
+                Sustainable Fashion App
+              </a>
             </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 style="padding-left: 20px; text-align: center">
+        Project: Turtle Fashion
+      </h1>
+      <ul style="text-align: center">
+        <li style="display: inline-block">
+          <a
+            href="#problem"
+            style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+          >
+            Problem
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#why"
+            style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+          >
+            Why us?
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#prototype"
+            style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+          >
+            Prototype
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#meeting"
+            style="text-decoration: none; color: #cc58a4; padding-right: 20px"
+          >
+            InnoJam Meeting
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="item1">
+        <h2>Sustainable Clothing Rental</h2>
+        <h4>"Fashion, but make it slow"</h4>
+      </div>
+      <div class="item2" id="problem">
+        <h3>Clothing nowadays has a negative impact on the environment.</h3>
+        <ul>
+          <li>
+            staying in trend with quality clothing is expensive - fast fashion
+            often used as alternative
+          </li>
+          <li>
+            Clothing utilization on steady decrease - Reasons include cultural
+            changes in style, decreased physical durability, and a trend to use
+            items less often* staying in trend with quality clothing is
+            expensive - fast fashion often used as alternative
+          </li>
+          <li>
+            Recycling solutions for clothing aren't good 85% of clothing ends up
+            in landfill** Fashion industry emits as much GHG as France, Germany
+            & UK combined***
+          </li>
+        </ul>
+      </div>
+      <div class="item3" id="why">
+        <h3>
+          Turtle Fashion reinvents online shopping for a new generation by
+          providing a subscription-based rental system
+        </h3>
+        <ul>
+          <li>Wide selection of trendy and rising sustainable brands</li>
+          <li>Personalized styling recommendations</li>
+          <li>Subscription Plans to save more</li>
+          <li>Free Shipping and Returns</li>
+        </ul>
+        <h2>Why Turtle Fashion is sustainable fashion?</h2>
+        <div style="text-align: center">
+          <figure>
+            <img src="Image/tf-diagram.jpg" alt="diagram" width="700" />
+            <figcaption>
+              Lifecycle of traditional clothing vs. Turtle Fashion
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="item4" id="prototype">
+        <h3>What our product looks like</h3>
+        <div style="text-align: center">
+          <figure>
+            <img src="Image/tf-design1.png" alt="design 1" height="400" />
+            <img src="Image/tf-design2.png" alt="design 2" height="400" />
+            <figcaption>Screenshots of what our product looks like</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="item5" id="meeting">
+        <h3>Participating in Innovation-Jam</h3>
+        <div style="text-align: center">
+          <figure>
+            <img
+              src="Image/Innovation-Jam.jpeg"
+              alt="mass meeting"
+              width="500"
+            />
+            <figcaption>Participating in Innovation Jam</figcaption>
+          </figure>
+        </div>
+      </div>
+    </main>
 
-        </main>
-    
-   
-        <footer>
-            &copy; 2022
-        </footer>
-    
-    </body>
-
-
+    <footer style="grid-area: footer; text-align: left">&copy; 2022</footer>
+  </body>
 </html>
