@@ -19,6 +19,16 @@ body {
   font-family: sans-serif;
 }
 
+body,
+html {
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 @keyframes fadein {
   from {
     opacity: 0%;
