@@ -149,8 +149,11 @@ span {
   padding-bottom: 20px;
 }
 
-#carecheck h1,
-h3 {
+#carecheck h1 {
+  color: rgb(35, 91, 73);
+}
+
+#carecheck h3 {
   color: rgb(35, 91, 73);
 }
 
