@@ -149,6 +149,16 @@ span {
   padding-bottom: 20px;
 }
 
+#carecheck h1,
+h3 {
+  color: rgb(35, 91, 73);
+}
+
+.grid-container-3 h1,
+h3 {
+  color: purple;
+}
+
 .main {
   display: flex;
   flex-direction: row;
@@ -273,6 +283,10 @@ span {
   /* background-color: #2196f3; */
   padding: 30px;
   overflow: hidden;
+}
+.grid-container figcaption {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .grid-container > div {
