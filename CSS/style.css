@@ -18,6 +18,7 @@
 body {
   font-family: sans-serif;
   min-width: 100vw;
+  margin: 0;
 }
 
 @keyframes fadein {
@@ -599,10 +600,8 @@ aside > p {
 .main-grid .item3 {
   width: auto;
   text-align: center;
-  align-items: center;
   margin: 10px 0;
   padding: 10px;
-  font-size: 20px;
 }
 
 .main-grid .share {
@@ -689,17 +688,15 @@ ul {
 }
 
 /* balloons */
-body {
-  margin: 0;
-}
-
 #balloon-container {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 0;
   padding: 1em;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
+  padding-bottom: 0;
+  /* overflow: hidden; */
   transition: opacity 500ms;
 }
 
