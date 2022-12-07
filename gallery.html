@@ -16,7 +16,10 @@
       gtag("config", "G-7GKWFN9VMZ");
     </script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,minimum-scale=1.0"
+    />
     <link rel="icon" type="image/x-icon" href="Image/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
@@ -32,19 +35,19 @@
     <!-- <header class="header"> -->
     <nav style="padding-top: 30px">
       <ul>
-        <li style="display: inline-block">
+        <li>
           <a href="index.html" style="text-decoration: none; color: #1650a0"
             ><h1>Home</h1></a
           >
         </li>
-        <li style="display: inline-block; padding-left: 30px">
+        <li>
           <a
             href="gallery.html"
             style="text-decoration: underline; color: darkblue"
             ><h1>Gallery</h1></a
           >
         </li>
-        <li style="display: inline-block; padding-left: 25px">
+        <li>
           <div class="dropdown">
             <button class="dropbtn">
               <span style="font-family: Poppins, sans-serif">
@@ -77,21 +80,19 @@
 
     <main class="grid-container" id="main">
       <header>
-        <h1 style="padding-left: 20px; text-align: center">
-          Gallery of Project Images
-        </h1>
+        <h1 style="text-align: center">Gallery of Project Images</h1>
         <ul style="text-align: center">
-          <li style="display: inline-block; padding-left: 20px">
+          <li style="display: inline-block; padding-right: 20px">
             <a href="#health" style="text-decoration: none; color: #311528">
               Care Check
             </a>
           </li>
-          <li style="display: inline-block; padding-left: 20px">
+          <li style="display: inline-block; padding-right: 20px">
             <a href="#tf" style="text-decoration: none; color: #311528">
               Turtle Fashion
             </a>
           </li>
-          <li style="display: inline-block; padding-left: 20px">
+          <li style="display: inline-block">
             <a href="#cst" style="text-decoration: none; color: #311528">
               Consulting
             </a>
@@ -102,29 +103,32 @@
       <div class="health">
         <div class="column">
           <div class="health-header" id="health">
-            Care Check: Health Product App
+            <h2>Care Check: Health Product App</h2>
           </div>
           <div class="row">
+            <div class="item0">
+              <figure>
+                <a href="1.html">
+                  <img src="Image/health-slide.png" alt="Overview" />
+                </a>
+                <figcaption>Overview</figcaption>
+              </figure>
+            </div>
             <div class="item1">
               <figure>
                 <a href="1.html">
                   <img
                     src="Image/interview-analysis.jpg"
                     alt="Interview Analysis"
-                    width="500"
                   />
                 </a>
-                <figcaption>Problem statement and User research</figcaption>
+                <figcaption>Interview analysis</figcaption>
               </figure>
             </div>
             <div class="item2">
               <figure>
                 <a href="1.html">
-                  <img
-                    src="Image/health-persona-1.jpg"
-                    alt="persona 1"
-                    width="500"
-                  />
+                  <img src="Image/health-persona-1.jpg" alt="persona 1" />
                 </a>
                 <figcaption>Details of Persona 1</figcaption>
               </figure>
@@ -132,11 +136,7 @@
             <div class="item3">
               <figure>
                 <a href="1.html">
-                  <img
-                    src="Image/health-persona-2.jpg"
-                    alt="persona 2"
-                    width="500"
-                  />
+                  <img src="Image/health-persona-2.jpg" alt="persona 2" />
                 </a>
                 <figcaption>Details of Persona 2</figcaption>
               </figure>
@@ -144,11 +144,7 @@
             <div class="item4">
               <figure>
                 <a href="1.html">
-                  <img
-                    src="Image/health-storyboard.jpeg"
-                    alt="storyboard"
-                    width="500"
-                  />
+                  <img src="Image/health-storyboard.jpeg" alt="storyboard" />
                 </a>
                 <figcaption>Storyboard of Persona 2</figcaption>
               </figure>
@@ -166,11 +162,7 @@
             <div class="item1">
               <figure>
                 <a href="3.html">
-                  <img
-                    src="Image/Innovation-Jam.jpeg"
-                    alt="Inno jam"
-                    width="500"
-                  />
+                  <img src="Image/Innovation-Jam.jpeg" alt="Inno jam" />
                 </a>
                 <figcaption>Jam Mass Meeting</figcaption>
               </figure>
@@ -181,7 +173,6 @@
                   <img
                     src="Image/inno-persona-mom.jpg"
                     alt="Inno jam mass meeting"
-                    width="500"
                 /></a>
                 <figcaption>Persona for User1: Working Mom</figcaption>
               </figure>
@@ -192,7 +183,6 @@
                   <img
                     src="Image/inno-persona-inf.jpg"
                     alt="influencer persona example"
-                    width="500"
                 /></a>
                 <figcaption>Persona for User2: College Influencer</figcaption>
               </figure>
@@ -213,7 +203,6 @@
                   <img
                     src="Image/Competitor-Analysis.jpg"
                     alt="competitor analysis"
-                    width="500"
                   />
                 </a>
                 <figcaption>Competitor Analysis (click for more)</figcaption>
@@ -222,10 +211,7 @@
             <div class="item2">
               <figure>
                 <a href="2.html">
-                  <img
-                    src="Image/npower.jpeg"
-                    alt="Npower Michigan Overview"
-                    width="500"
+                  <img src="Image/npower.jpeg" alt="Npower Michigan Overview"
                 /></a>
                 <figcaption>NPower Trainees</figcaption>
               </figure>
@@ -274,6 +260,8 @@
         </div> -->
     </main>
 
-    <footer style="grid-area: footer; text-align: left">&copy; 2022</footer>
+    <footer style="grid-area: footer; text-align: left; font-size: small">
+      &copy; 2022
+    </footer>
   </body>
 </html>
