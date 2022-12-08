@@ -77,7 +77,12 @@ nav li.logo {
   font-weight: 700;
   letter-spacing: 4px;
 }
-
+nav li:nth-child(2) {
+  padding-left: 40px;
+}
+nav li:nth-child(1) {
+  padding-left: 60px;
+}
 nav li h1 {
   font-size: small;
   text-align: left;
@@ -785,12 +790,7 @@ ul {
   nav li h1 {
     font-size: 15px;
   }
-  nav li:nth-child(2) {
-    padding-left: 40px;
-  }
-  nav li:nth-child(1) {
-    padding-left: 60px;
-  }
+
   .dropbtn span {
     font-size: 15px;
     padding-left: 27px;
@@ -840,8 +840,7 @@ ul {
 
   /* page1 grid */
   .main-grid .item1 {
-    display: grid;
-    grid-template-columns: 1 1;
+    grid-template-columns: 1 1 auto;
   }
   .item11 {
     grid-column: 1;
@@ -861,6 +860,12 @@ ul {
   }
   .shareitem3 {
     grid-column: 4/5;
+  }
+  .main-grid .item3 {
+    text-align: left;
+  }
+  .main-grid .item3 li {
+    padding-left: 35vw;
   }
 }
 
