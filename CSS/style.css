@@ -32,6 +32,7 @@ body {
 
 .ani img {
   animation: 3s fadein;
+  width: 65%;
 }
 
 .row p {
@@ -275,9 +276,15 @@ h3 {
 #wrapper aside {
   margin: auto;
   position: relative;
-  color: purple;
+  color: white;
   width: 100%;
   display: block;
+  background-color: #1b5cb7;
+}
+.form,
+aside p {
+  padding: 20px;
+  font-size: 1rem;
 }
 
 /* grid added */
@@ -590,6 +597,10 @@ aside > p {
   margin: 10px 0;
   padding: 10px;
 }
+.main-grid .item1 p {
+  padding: 20px;
+}
+
 .main-grid .item2 {
   width: auto;
   text-align: center;
@@ -786,7 +797,9 @@ ul {
   .consulting-header {
     font-size: 25px;
   }
-
+  .ani img {
+    width: 45vw;
+  }
   .main-grid .item3 {
     padding: 10px;
     margin: 10px;
@@ -799,15 +812,6 @@ ul {
   }
 
   /* gallery grid */
-
-  #container {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "aside"
-      "main"
-      "footer";
-  }
 
   .grid-container {
     overflow: hidden;
@@ -827,6 +831,11 @@ ul {
   }
 }
 
+@media all and (min-width: 1024px) {
+  .ani img {
+    width: 400px;
+  }
+}
 /*@media all and (min-width: 320px) and (max-width: 780px) {here is your css code} */
 
 @media (prefers-reduced-motion) {
