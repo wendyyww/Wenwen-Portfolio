@@ -140,8 +140,9 @@ h4 {
 
 h5 {
   color: #c490f8;
-  font-size: 26px;
+  font-size: 1.25rem;
   font-weight: 700;
+  padding-left: 20px;
   /* padding-left: 90px; */
 }
 
@@ -202,10 +203,12 @@ h3 {
 
 .share {
   border: 1px dashed rgb(227, 184, 248);
-  padding: 15px 0px;
+  /* padding: 15px 0px; */
   position: relative;
   text-align: center;
-  width: 100%;
+  width: 90%;
+  display: grid;
+  justify-content: space-evenly;
 }
 
 .share a {
@@ -781,7 +784,12 @@ ul {
   }
   nav li h1 {
     font-size: 15px;
+  }
+  nav li:nth-child(2) {
     padding-left: 40px;
+  }
+  nav li:nth-child(1) {
+    padding-left: 60px;
   }
   .dropbtn span {
     font-size: 15px;
@@ -828,6 +836,31 @@ ul {
     text-align: center;
     margin: 10px;
     padding: 10px;
+  }
+
+  /* page1 grid */
+  .main-grid .item1 {
+    display: grid;
+    grid-template-columns: 1 1;
+  }
+  .item11 {
+    grid-column: 1;
+  }
+  .item12 {
+    grid-column: 2;
+  }
+  .share {
+    display: grid;
+    grid-template-columns: 20% auto auto auto 20%;
+  }
+  .shareitem1 {
+    grid-column: 2 / 3;
+  }
+  .shareitem2 {
+    grid-column: 3 / 4;
+  }
+  .shareitem3 {
+    grid-column: 4/5;
   }
 }
 
