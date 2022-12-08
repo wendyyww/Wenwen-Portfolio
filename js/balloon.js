@@ -37,9 +37,9 @@ function removeBalloons() {
 }
 
 window.addEventListener("load", () => {
-  createBalloons(30);
+  createBalloons(15);
 });
 
-window.addEventListener("click", () => {
-  removeBalloons();
-});
+// window.addEventListener("click", () => {
+//   removeBalloons();
+// });
