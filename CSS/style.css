@@ -144,7 +144,7 @@ h4 {
 }
 
 h5 {
-  color: #c490f8;
+  color: #8354b2;
   font-size: 1.25rem;
   font-weight: 700;
   padding-left: 20px;
@@ -1023,6 +1023,9 @@ ul {
   .grid-container-3 .tf45 .item4 h3,
   .grid-container-3 .tf45 .item5 h3 {
     text-align: center;
+  }
+  #byline {
+    color: navy;
   }
 }
 /*@media all and (min-width: 320px) and (max-width: 780px) {here is your css code} */
