@@ -40,6 +40,4 @@ window.addEventListener("load", () => {
   createBalloons(15);
 });
 
-// window.addEventListener("click", () => {
-//   removeBalloons();
-// });
+// reference: Jemimaabu@codepen
